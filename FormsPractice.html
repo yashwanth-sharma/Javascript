@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Practice</title>
-</head>
-<body>
-    <h1>Race Registration!</h1>
-    <form action="">
-        <label for="">First Name</label>
-        <input type="text" required>
-        <label for="">Last Name</label>
-        <input type="text" required><br>
-        <label for="">Select a Race:</label><br>
-        <input type="radio" name="Race" id="radio-btn">
-        <label for="">Fun Run 5k</label><br>
-        <input type="radio" name="Race" id="radio-btn">
-        <label for="">Fun Run 5k</label><br>
-        <input type="radio" name="Race" id="radio-btn">
-        <label for="">Fun Run 5k</label><br>
-        <label for="">Email</label>
-        <input type="text">
-        <label for="">Password</label>
-        <input type="text"><br>
-        <label for="">Select Age Group</label>
-        <select name="" id="">
-            <option value="Above 18">Above 18</option>
-            <option value="under 18">under 18</option>
-            <option value="Cannot Disclose">Cannot Disclose</option>
-        </select><br>
-        <button>Register!</button>
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Practice</title>
+    </head>
+    <style>
+        #select-filter
+        {
+            color:pink;
+            background-color: grey;
+        }
+        #select-filter:hover
+        {
+            color:red;
+            background-color: white;
+            transition: 1s;
+        }
+    </style>
+    <body>
+        <h1>Race Registration!</h1>
+        <form action="">
+            <div>
+                <label for="">First Name</label>
+                <input type="text" required="required" id="first" name="firstName">
+                <label for="">Last Name</label>
+                <input type="text" name="lastName" required="required"><br>
+            </div>
+            <label for="">Select a Race:</label><br>
+            <input type="radio" name="Race" id="radio-btn" value="Full">
+            <label for="radio-btn">Full Run 5k</label><br>
+            <input type="radio" name="Race" id="radio-btn2" value="Half">
+            <label for="radio-btn2">Half Run 5k</label><br>
+            <input type="radio" name="Race" id="radio-btn3" value="Sample">
+            <label for="radio-btn3">Sample Run 5k</label><br>
+
+            <label for="email" >Email</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required><br>
+            <label for="">Select Age Group</label>
+            <select name="Filters" id="select-filter">
+                <option value="Above 18">Above 18</option>
+                <option value="under 18">under 18</option>
+                <option value="Cannot Disclose">Cannot Disclose</option>
+            </select><br>
+            <button>Register!</button>
+        </form>
+        <h3>Work Done !!!!</h3>
+    </body>
 </html>
