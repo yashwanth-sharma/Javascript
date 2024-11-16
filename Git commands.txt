@@ -1,0 +1,9 @@
+Check the correct branch name with git branch.
+Verify its correct branch that you are working.
+
+Follow the Steps below.
+git add .
+git status (Check the files whether they are added or deleted accordingly)
+git commit -am "Message to commit"
+git pull origin <branch Name>
+git push -u origin <branch Name>
