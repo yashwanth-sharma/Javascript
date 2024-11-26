@@ -21,6 +21,11 @@ h4::first-letter
 {
     text-transform: uppercase;
 }
+.second
+{
+    color:red;
+    text-decoration: #344e41 underline;
+}
 p 
 {
     text-align:center;
@@ -30,7 +35,7 @@ p
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-p.para2 , a
+p.para > a
 {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -63,5 +68,25 @@ button:hover
     background-color: #dad7cd;
     color:#003049;
     transition: 500ms;
-    /* margin: auto; */
+}
+/* If p is next to h4  Element , this works */
+h4 + p
+{
+    background-color: white;
+}
+
+/* if <a> tag is inside <p> tag the this works*/
+p a 
+{
+    background-color: black;
+    color:#dad7cd;
+}
+ul a 
+{
+    text-decoration: none;
+    color:#003049;
+}
+li 
+{
+    list-style: circle;
 }
