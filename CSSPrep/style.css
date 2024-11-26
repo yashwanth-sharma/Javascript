@@ -3,3 +3,23 @@ h3
     color:blue;
     background-color: grey;
 }
+h4
+{
+    text-align:right;
+    width:50%;
+    letter-spacing: 10px;
+    text-decoration: orange underline wavy;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: 500; */
+}
+p 
+{
+    text-align:center;
+    font-weight: bold;
+    text-decoration: grey underline dotted 5px;
+    line-height: 2;
+}
+p.para2 , a
+{
+    text-decoration: none;
+}
