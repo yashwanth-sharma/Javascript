@@ -1,3 +1,7 @@
+* 
+{
+    background-color: #dad7cd;
+}
 h3
 {
     color:blue;
@@ -5,21 +9,59 @@ h3
 }
 h4
 {
-    text-align:right;
-    width:50%;
-    letter-spacing: 10px;
-    text-decoration: orange underline wavy;
+    text-align:center;
+    color: #003049;
+    /* width:50%; */
+    letter-spacing: 5px;
+    text-decoration: #344e41 underline;
     font-family: 'Courier New', Courier, monospace;
     /* font-weight: 500; */
+}
+h4::first-letter 
+{
+    text-transform: uppercase;
 }
 p 
 {
     text-align:center;
-    font-weight: bold;
-    text-decoration: grey underline dotted 5px;
+    /* font-weight: bold; */
+    /* text-decoration: grey underline dotted 5px; */
     line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 p.para2 , a
 {
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5#heading5
+{
+    color:#003049;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+button
+{
+    border: none;
+    border-radius: 8px;
+    padding:7px;
+    background-color: #003049;
+    color:#dad7cd;
+    cursor: pointer;
+}
+.btn 
+{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    height:10vh;
+    gap:10px
+}
+button:hover
+{
+    background-color: #dad7cd;
+    color:#003049;
+    transition: 500ms;
+    /* margin: auto; */
 }
