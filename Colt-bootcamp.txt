@@ -1,1 +1,3 @@
 Hello Colt
+Dummy text
+New Dummy
