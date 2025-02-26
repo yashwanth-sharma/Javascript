@@ -1,9 +1,6 @@
 h1,body
 {
     font-family: 'Courier New', Courier, monospace;
-    /* position: inherit;
-    text-align: center;
-    margin-top: 200px; */
     color: white;
 }
 body 
@@ -13,15 +10,6 @@ body
 html 
 {
     background-color: black;
-}
-b 
-{
-    font-weight: bold;
-}
-.lists 
-{
-    /* display:inline; */
-    /* float:inline-start; */
 }
 a 
 {
@@ -37,7 +25,6 @@ img
 .div-practice
 {
     border:6px solid grey;
-    display:inline-block;
     padding:10px;
 
 }
@@ -65,4 +52,28 @@ aside {
     font-style: italic;
     color: white;
   }
-  
+  input[type="password"] ,   input[type="text"]
+  {
+    color :beige;
+    background-color: #29627e;
+  }
+  a:hover 
+  {
+    color:orange;
+    background-color: white;
+  }
+  button 
+  {
+    color:black;
+    background-color:white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+  }
+  button:hover 
+  {
+    color:black;
+    background-color:yellowgreen ;
+    transition: 1s ease-in;
+    cursor: pointer;
+  }
