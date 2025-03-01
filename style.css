@@ -77,3 +77,45 @@ aside {
     transition: 1s ease-in;
     cursor: pointer;
   }
+
+  div.child:nth-of-type(2n)
+  {
+    background-color: aliceblue;
+    color:black;
+  }
+
+  div.child:nth-of-type(3n) , div.child:first-of-type
+  {
+    background-color: grey;
+    color:black;
+  }
+
+  div.child:first-of-type 
+  {
+    margin-top: 20px;
+  }
+
+  /* div.child::first-letter 
+  {
+    font-size: 30px;
+    color:red;
+  } */
+
+  div.child::before , div.child::after
+  {
+    content: "*";
+    color:blueviolet;
+    font-weight: bold;
+  }
+
+  p.selector-example::first-line 
+  {
+    background-color: white;
+    color:blueviolet;
+    font-weight: bold;
+  }
+  
+  p.selector-example::selection
+  {
+    background-color: #29627e;
+  }
