@@ -9,7 +9,6 @@ git pull origin <branch Name>
 git push -u origin <branch Name>
 
 
-
 If u created branch from the vscode.
 git clone <rep0_link>
 git checkout -b <new_branch_name>

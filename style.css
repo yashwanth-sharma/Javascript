@@ -3,6 +3,10 @@ h1,body
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
+h1 
+{
+    color:red;
+}
 body 
 {
     color:white;
@@ -114,7 +118,7 @@ aside {
     color:blueviolet;
     font-weight: bold;
   }
-  
+
   p.selector-example::selection
   {
     background-color: #29627e;
