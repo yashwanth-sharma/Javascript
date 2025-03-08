@@ -1,0 +1,30 @@
+body 
+{
+    font-family: "Montserrat", sans-serif;
+  }
+
+div 
+{
+    width: 200px;
+    height: 200px;
+    font-size: 12px;
+    border:1px solid #F37199;
+    border-width:2px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+    /* border-radius: 10% / 50%; */
+    /* overflow: hidden; */
+}
+h1 
+{
+    color:#E53888;
+    background-color: #F7A8C4;
+    width: 200px;
+    padding:10px;
+}
+button 
+{
+    padding: 10px;
+    /* border: 10px solid black; */
+}
